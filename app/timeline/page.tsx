@@ -63,9 +63,10 @@ export default function TimelinePage() {
                         <TimelineContent>
                             <Card>
                                 <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Anreise</Typography>
-                                <Typography variant="h5"><Link href={"/campus-registration"}>Flug</Link></Typography>
+                                <Typography variant="h5">Flug</Typography>
                                 <Typography variant="body2">
-                                    Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich.
+                                    Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.
+                                    Da das Vorausbuchen von Flügen nur in den nächsten 10 Monaten möglich ist, müsst ihr vorerst nur den Hinflug buchen.
                                 </Typography>
                             </Card>
                         </TimelineContent>
@@ -82,6 +83,7 @@ export default function TimelinePage() {
                                 <Typography variant="body2">
                                     Für die Registration am Campus müssen Studenten zum International Office. Es gibt eine Koordinatorin, die spezifisch für Double Degree Studenten zuständig ist.
                                     Sobald ihr einmal da wart bekommt ihr ein Laufzettel, der in richtiger Reihenfolge ausgefüllt werden muss.
+                                    Nach dem ihr die Steps bis 4 durchgemacht habt kann auch der Antrag für die Residency gemacht werden.
                                 </Typography>
                             </Card>
                         </TimelineContent>
@@ -94,9 +96,9 @@ export default function TimelinePage() {
                         <TimelineContent>
                             <Card>
                                 <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Ankunft</Typography>
-                                <Typography variant="h5"><Link href={""}>ARC Antrag</Link></Typography>
+                                <Typography variant="h5"><Link href={"/residency"}>ARC Antrag</Link></Typography>
                                 <Typography variant="body2">
-                                    Um die Alien Resident Card zu bekommen muss zuerst ein Antrag über die Webseite der Immigration Agency beantragt werden.
+                                    Um die Alien Resident Card (ARC) zu bekommen muss zuerst ein Antrag über die Webseite der Immigration Agency beantragt werden.
                                     Eine Kopie der ARC ist außerdem notwendig damit ihr eure Admission vervollständigen könnt und eure Studentenkarte bekommt.
                                 </Typography>
                             </Card>
