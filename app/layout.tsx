@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/app/components/NavBar";
+
+import ThemeRegistry from '@/app/providers/ThemeRegistry';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,13 +25,40 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+    let emotionStyles = '';
+
+    try {
+      // Only run on server build: create a temporary cache and extract critical CSS
+      // Use dynamic require so bundlers don't try to include these in client bundles
+      const createCache = require('@emotion/cache').default;
+      const createEmotionServer = require('@emotion/server/create-instance').default;
+      const cache = createCache({ key: 'mui', prepend: true });
+      const { extractCriticalToChunks, constructStyleTagsFromChunks } = createEmotionServer(cache);
+      const chunks = extractCriticalToChunks('');
+      emotionStyles = constructStyleTagsFromChunks(chunks);
+    } catch (e) {
+      // ignore in client or if extraction fails
+      emotionStyles = '';
+    }
+
+    return (
+        <html lang="en">
+        <head>
+          {/* Insert server-side emotion styles */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <div dangerouslySetInnerHTML={{ __html: emotionStyles }} />
+        </head>
+        <body
+            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+        <ThemeRegistry>
+            <NavBar/>
+            <main>
+                {children}
+            </main>
+        </ThemeRegistry>
+        </body>
+        </html>
+    );
 }
