@@ -20,7 +20,8 @@ export default function TimelinePage() {
                                 <Typography variant="h5">Anmeldung Double Degree Program</Typography>
                                 <Typography variant="body2">
                                     Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt
-                                    eine Mail an die Projektverantwortliche Andrea Wirth senden.
+                                    eine Mail an die <Link href={"mailto:andrea.wirth@h-ka.de"}>Projektverantwortliche</Link> senden.
+                                    Es gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern.
                                 </Typography>
                             </Card>
                         </TimelineContent>
@@ -33,11 +34,13 @@ export default function TimelinePage() {
                         <TimelineContent>
                             <Card>
                                 <Typography sx={{color: 'text.secondary', mb: 1.5}}>1-2 Monate vorher</Typography>
-                                <Typography variant="h5">Visa Vorbereitung</Typography>
+                                <Typography variant="h5">Reise Vorbereitung</Typography>
                                 <Typography variant="body2">
+                                    Für ein Auslandsaufenthalt für über 180 Tage ist es notwendig ein Residency-Visum zu beantragen.
                                     Für das Visum muss ein Health Check vorbereitet werden. Anreisende aus Deutschland
                                     brauchen eine Untersuchung auf Tuberkulosis, Syphilis-Test, Impfnachweise für
-                                    Masern, ...
+                                    Masern, etc.
+                                    Zusätzlich ist es sinnvoll Impfungen für Krankheiten aus dem Asia-Raum zu machen.
                                 </Typography>
                             </Card>
                         </TimelineContent>
