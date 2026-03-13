@@ -1,30 +1,15 @@
 import {Box} from "@mui/system";
-import {Container, Typography} from "@mui/material";
+import {Card, Container, Typography} from "@mui/material";
+import {InfoCard} from "@/app/NTUST/course-selection/components/InfoCard";
 
 export default function CourseSelectionPage() {
     return (
         <Box>
             <Typography variant="h1">Course Selection 101</Typography>
-            <Container>
-                <Container component="div">
-                    <Typography variant="h3" color="textSecondary">Minimale Anforderung</Typography>
-                    <Typography variant="body1">
-                        <ul>
-                            <li>Die Mindestanzahl für den Master an der NTUST sind 36 credits,
-                                aus diesen Credits müssen 24 credits aus dem Fachbereich Information Management kommen
-                                (Course ID: MI).
-                            </li>
-                            <li>Double Masters&#39; degree Studenten haben die Möglichkeit einmal einen Antrag auf
-                                Credit Transfer zu beantragen.
-                                Kurse aus der HKA werden dabei auf Kurse der NTUST gemappt.
-                            </li>
-                            <li>Neben den Kursen muss auch noch der Academic Research Ethics Course erbracht werden.
-                            </li>
-                            <li>Die Masterthesis wird erst nach dem Kolloqiuum anerkannt.</li>
-                        </ul>
-                    </Typography>
-                </Container>
-                <Container component="div">
+            <Container className="gap-4 flex flex-col">
+                <InfoCard title="Minimale Anforderung"
+                          description={["Die Mindestanzahl für den Master an der NTUST sind 36 credits, aus diesen Credits müssen 24 credits aus dem Fachbereich Information Management kommen (Course ID: MI)."]}/>
+                <Card className="rounded-lg p-4">
                     <Typography variant="h3" color="textSecondary">Zusätzliche Information</Typography>
                     <Typography variant="body1">
                         <ul>
@@ -40,7 +25,7 @@ export default function CourseSelectionPage() {
                             </li>
                         </ul>
                     </Typography>
-                </Container>
+                </Card>
             </Container>
         </Box>
     );
