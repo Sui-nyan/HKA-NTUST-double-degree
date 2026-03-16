@@ -47,7 +47,6 @@ export default function RootLayout({
           {/* Insert server-side emotion styles */}
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <div dangerouslySetInnerHTML={{ __html: emotionStyles }} />
         </head>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
