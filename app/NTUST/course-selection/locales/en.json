@@ -1,0 +1,24 @@
+{
+  "pageTitle": "Course Selection 101",
+  "infoCards": [
+    {
+      "title": "Minimum Requirements",
+      "description": [
+        "The minimum number of credits required for the Master's degree at NTUST is 36, of which 24 must be from the Information Management department (Course ID: MI).",
+        "Double Masters' degree students have the option to apply for a Credit Transfer. Courses from HKA will be mapped to courses at NTUST.",
+        "In addition to the courses, the Academic Research Ethics Course must also be completed.",
+        "The Master's thesis will only be recognized after the colloquium."
+      ]
+    },
+    {
+      "title": "Additional Information",
+      "description": [
+        "Foreign Language courses cannot be included in the 36 Credits required for the Master's degree.",
+        "Courses with a G or the number 3 and below in the third position of the course code are undergraduate courses, which are not free of charge.",
+        "This means that, except for the Mandarin courses, language courses are paid and General Education courses are also paid.",
+        "Paid courses cost 3.340 NT$ per credit.",
+        "There is the possibility to drop/add courses after the Course Add/Drop Phase. For this, a form must be filled out that includes the signature of your advisor, the department head, and the professor of the course. The deadline for this can be inquired at the Administration Office."
+      ]
+    }
+  ]
+}

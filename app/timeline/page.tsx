@@ -5,7 +5,7 @@ import {Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem,
 export default function TimelinePage() {
     return (
         <Box className="flex flex-col items-center gap-8">
-            <Typography variant="h1">Double Degree Timeline</Typography>
+            <Typography variant="h1">From Germany to Taiwan: Timeline</Typography>
             <Box className="max-w-2xl">
                 <Timeline position="alternate">
                     <TimelineItem>
