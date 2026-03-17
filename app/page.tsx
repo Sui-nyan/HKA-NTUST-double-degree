@@ -1,12 +1,13 @@
-import {Box} from "@mui/system";
+import {Box, Container} from "@mui/system";
 import Link from "next/link";
 import {Typography} from "@mui/material";
 
 export default function Home() {
   return (
-    <Box>
-        <Typography variant={"h1"}>Willkommen im Doppelabschluss Programm zwischen der HKA und der NTUST</Typography>
-        <Link href="/timeline">Ablauf</Link>
+    <Box className="flex flex-col items-center justify-center min-h-screen py-2 bg-[url(../public/timo-volz-9-JFZIORoRw-unsplash.jpg)] h-auto bg-cover">
+      <Container className="bg-linear-to-r from-blue-500 to-black-500 bg-opacity-80 rounded-lg p-8">
+          <Typography variant={"h1"} className="chewy-regular">A Journey to Taiwan</Typography>
+      </Container>
     </Box>
   );
 }

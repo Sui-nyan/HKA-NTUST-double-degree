@@ -1,4 +1,4 @@
-import {Card, Typography} from "@mui/material";
+import {Card, Container, Typography} from "@mui/material";
 import {TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator} from "@mui/lab";
 import Link from "next/link";
 import {TimelineEntry} from "./types";
@@ -11,28 +11,29 @@ export default function TimelineContentCard({entry}: Props) {
   return (
     <TimelineItem>
       <TimelineSeparator>
-        <TimelineDot />
-        <TimelineConnector />
+        <TimelineDot className="bg-black" />
+        <TimelineConnector className="bg-black" />
       </TimelineSeparator>
       <TimelineContent>
-        <Card>
+        <Card className="flex flex-col p-4">
           {entry.dateLabel && (
             <Typography sx={{color: 'text.secondary', mb: 1.5}}>{entry.dateLabel}</Typography>
           )}
           {entry.title ? (
             <Typography variant="h5">{entry.title}</Typography>
           ) : null}
-
-          {entry.description && (
-            <Typography variant="body2">
-              {entry.description.split('\n').map((p, i) => (
-                <span key={i}>
-                  {p}
-                  {i < entry.description!.split('\n').length - 1 && <br />}
-                </span>
-              ))}
-            </Typography>
-          )}
+          <Container className="flex p-8 w-full w-min-xl">
+              {entry.description && (
+              <Typography variant="body2">
+                {entry.description.split('\n').map((p, i) => (
+                  <span key={i}>
+                    {p}
+                    {i < entry.description!.split('\n').length - 1 && <br />}
+                  </span>
+                ))}
+              </Typography>
+            )}
+          </Container>
 
           {entry.links && entry.links.length > 0 && (
             <Typography variant="body2" sx={{mt: 1}}>
