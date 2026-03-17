@@ -3,10 +3,7 @@
     "id": "double-degree-signup",
     "dateLabel": "Ein Semester davor",
     "title": "Anmeldung Double Degree Program",
-    "description": "Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt eine Mail an die Projektverantwortliche senden.\nEs gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern.",
-    "links": [
-      {"label": "Projektverantwortliche", "href": "mailto:andrea.wirth@h-ka.de"}
-    ]
+    "description": "Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt eine Mail an die Projektverantwortliche senden.\nEs gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern."
   },
   {
     "id": "travel-prep",
@@ -24,7 +21,7 @@
     "id": "flight",
     "dateLabel": "Anreise",
     "title": "Flug",
-    "description": "Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.\nDa das Vorausbuchen von Flügen nur für die nächsten 10 Monaten möglich ist, könnt ihr vorerst nur den Hinflug buchen."
+    "description": "Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.\nDa das Vorausbuchen von Flügen nur für die nächsten 8 Monaten möglich ist, könnt ihr vorerst nur den Hinflug buchen."
   },
   {
     "id": "campus-registration",

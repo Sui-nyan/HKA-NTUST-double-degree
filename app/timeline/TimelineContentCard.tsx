@@ -11,18 +11,18 @@ export default function TimelineContentCard({entry}: Props) {
   return (
     <TimelineItem>
       <TimelineSeparator>
-        <TimelineDot className="bg-black" />
-        <TimelineConnector className="bg-black" />
+        <TimelineDot className="bg-white" />
+        <TimelineConnector className="bg-white" />
       </TimelineSeparator>
-      <TimelineContent>
-        <Card className="flex flex-col p-4">
+      <TimelineContent className="flex flex-col items-start bg-none">
+        <Card className="flex flex-col p-4 bg-white/70">
           {entry.dateLabel && (
             <Typography sx={{color: 'text.secondary', mb: 1.5}}>{entry.dateLabel}</Typography>
           )}
           {entry.title ? (
             <Typography variant="h5">{entry.title}</Typography>
           ) : null}
-          <Container className="flex p-8 w-full w-min-xl">
+          <Container className="flex pt-4">
               {entry.description && (
               <Typography variant="body2">
                 {entry.description.split('\n').map((p, i) => (
@@ -36,7 +36,7 @@ export default function TimelineContentCard({entry}: Props) {
           </Container>
 
           {entry.links && entry.links.length > 0 && (
-            <Typography variant="body2" sx={{mt: 1}}>
+            <Typography variant="body2" className="text-blue-500 underline p-4" sx={{mt: 1}}>
               {entry.links.map((l, idx) => (
                 <span key={idx}>
                   {l.href.startsWith('http') || l.href.startsWith('mailto:') ? (

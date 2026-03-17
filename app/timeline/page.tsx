@@ -11,7 +11,7 @@ export default function TimelinePage() {
     return (
         <Box className="flex flex-col items-center gap-8 bg-[url(../public/maren-wilczek-iiSbeOl24fM-unsplash.jpg)] h-auto bg-cover py-8">
             <Typography variant="h1" className="chewy-regular">From HKA to NTUST</Typography>
-            <Container className="flex w-full bg-slate-500/80 rounded-lg max-w-7xl m-x-4 p-8">
+            <Container className="flex w-full bg-black/70 rounded-lg max-w-7xl m-x-4 p-8">
                 <Timeline position="alternate">
                     {entries.map((entry) => (
                         <TimelineContentCard key={entry.id} entry={entry}/>
