@@ -1,0 +1,63 @@
+[
+  {
+    "id": "double-degree-signup",
+    "dateLabel": "Ein Semester davor",
+    "title": "Anmeldung Double Degree Program",
+    "description": "Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt eine Mail an die Projektverantwortliche senden.\nEs gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern.",
+    "links": [
+      {"label": "Projektverantwortliche", "href": "mailto:andrea.wirth@h-ka.de"}
+    ]
+  },
+  {
+    "id": "travel-prep",
+    "dateLabel": "1-2 Monate vorher",
+    "title": "Reise Vorbereitung",
+    "description": "Für ein Auslandsaufenthalt für über 180 Tage ist es notwendig ein Residency-Visum zu beantragen.\nFür das Visum muss ein Health Check vorbereitet werden. Anreisende aus Deutschland brauchen eine Untersuchung auf Tuberkulosis, Syphilis-Test, Impfnachweise für Masern, etc.\nZusätzlich ist es sinnvoll Impfungen für Krankheiten aus dem Asia-Raum zu machen."
+  },
+  {
+    "id": "visa-apply",
+    "dateLabel": "1 Monat vor Abreise",
+    "title": "Visa-Antrag absenden",
+    "description": "Das Konsulat arbeitet sehr schnell und hat das Visum meistens innerhalb von 5 Tagen vorbereitet.\nLass trotzdem am besten ein bisschen Puffer, damit notfalls noch Dokumente nachgesendet werden können."
+  },
+  {
+    "id": "flight",
+    "dateLabel": "Anreise",
+    "title": "Flug",
+    "description": "Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.\nDa das Vorausbuchen von Flügen nur für die nächsten 10 Monaten möglich ist, könnt ihr vorerst nur den Hinflug buchen."
+  },
+  {
+    "id": "campus-registration",
+    "dateLabel": "Ankunft",
+    "title": "Erster Campus Tag",
+    "description": "Für die Registration am Campus müssen Studenten zum International Office. Es gibt eine Koordinatorin, die spezifisch für Double Degree Studenten zuständig ist.\nSobald ihr einmal da wart bekommt ihr ein Laufzettel, der in richtiger Reihenfolge ausgefüllt werden muss.\nNach dem ihr die Steps bis 4 durchgemacht habt kann auch der Antrag für die Residency gemacht werden.\nAußerdem sollte der Credit Transfer so bald wie möglich gemacht werden.",
+    "links": [
+      {"label": "Erster Campus Tag", "href": "/campus-registration"}
+    ]
+  },
+  {
+    "id": "arc-application",
+    "dateLabel": "Ankunft",
+    "title": "ARC Antrag",
+    "description": "Um die Alien Resident Card (ARC) zu bekommen muss zuerst ein Antrag über die Webseite der Immigration Agency beantragt werden.\nEine Kopie der ARC ist außerdem notwendig damit ihr eure Admission vervollständigen könnt und eure Studentenkarte bekommt.",
+    "links": [
+      {"label": "ARC Info", "href": "/residency"}
+    ]
+  },
+  {
+    "id": "sim-banking",
+    "dateLabel": "Angekommen",
+    "title": "",
+    "description": "Sobald ihr eure Studentenkarte und eure ARC bekommen habt könnt ihr für billigere Preise eine taiwanesische Sim-Karte erhalten.\nAußerdem habt ihr jetzt auch die Möglichkeit ein Bankkonto zu eröffnen.",
+    "links": [
+      {"label": "Sim-Karte", "href": "/mobile"},
+      {"label": "Bankkonto", "href": "/banking"}
+    ]
+  },
+  {
+    "id": "university-life",
+    "dateLabel": "University Life",
+    "title": "",
+    "description": "In den ersten zwei Wochen der Vorlesung gibt es die Möglichkeit Kurse hinzuzufügen oder zu droppen.\nMeistens sind die Kurse sehr schnell ausgebucht, es macht also Sinn sich früh einzuschreiben und eventuell später nochmal zu droppen.\nSobald die Add-Drop Phase vorbei ist ist es sehr schwierig noch in Kurse reinzukommen oder diese zu droppen."
+  }
+]
