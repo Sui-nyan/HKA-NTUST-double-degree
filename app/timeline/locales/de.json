@@ -3,10 +3,7 @@
     "id": "double-degree-signup",
     "dateLabel": "Ein Semester davor",
     "title": "Anmeldung Double Degree Program",
-    "description": "Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt eine Mail an die Projektverantwortliche senden.\nEs gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern.",
-    "links": [
-      {"label": "Projektverantwortliche", "href": "mailto:andrea.wirth@h-ka.de"}
-    ]
+    "description": "Am besten bei der Infoveranstaltung für den Double Degree teilnehmen oder direkt eine Mail an die Projektverantwortliche senden.\nEs gibt für jedes Semester eine maximale Anzahl von fünf Teilnehmern."
   },
   {
     "id": "travel-prep",
@@ -24,7 +21,7 @@
     "id": "flight",
     "dateLabel": "Anreise",
     "title": "Flug",
-    "description": "Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.\nDa das Vorausbuchen von Flügen nur für die nächsten 10 Monaten möglich ist, könnt ihr vorerst nur den Hinflug buchen."
+    "description": "Ein direkt Flug von Deutschland nach Taiwan ist beispielsweise über Frankfurt oder München möglich. Über Stuttgart gibt es auch die Möglichkeit mit einem Umstieg zu fliegen.\nDa das Vorausbuchen von Flügen nur für die nächsten 8 Monaten möglich ist, könnt ihr vorerst nur den Hinflug buchen."
   },
   {
     "id": "campus-registration",
@@ -32,7 +29,7 @@
     "title": "Erster Campus Tag",
     "description": "Für die Registration am Campus müssen Studenten zum International Office. Es gibt eine Koordinatorin, die spezifisch für Double Degree Studenten zuständig ist.\nSobald ihr einmal da wart bekommt ihr ein Laufzettel, der in richtiger Reihenfolge ausgefüllt werden muss.\nNach dem ihr die Steps bis 4 durchgemacht habt kann auch der Antrag für die Residency gemacht werden.\nAußerdem sollte der Credit Transfer so bald wie möglich gemacht werden.",
     "links": [
-      {"label": "Erster Campus Tag", "href": "/campus-registration"}
+      {"label": "Erster Campus Tag", "href": "NTUST/campus-registration"}
     ]
   },
   {
@@ -47,7 +44,7 @@
   {
     "id": "sim-banking",
     "dateLabel": "Angekommen",
-    "title": "",
+    "title": "Sim-Karte und Bankkonto",
     "description": "Sobald ihr eure Studentenkarte und eure ARC bekommen habt könnt ihr für billigere Preise eine taiwanesische Sim-Karte erhalten.\nAußerdem habt ihr jetzt auch die Möglichkeit ein Bankkonto zu eröffnen.",
     "links": [
       {"label": "Sim-Karte", "href": "/mobile"},
@@ -56,8 +53,17 @@
   },
   {
     "id": "university-life",
-    "dateLabel": "University Life",
-    "title": "",
-    "description": "In den ersten zwei Wochen der Vorlesung gibt es die Möglichkeit Kurse hinzuzufügen oder zu droppen.\nMeistens sind die Kurse sehr schnell ausgebucht, es macht also Sinn sich früh einzuschreiben und eventuell später nochmal zu droppen.\nSobald die Add-Drop Phase vorbei ist ist es sehr schwierig noch in Kurse reinzukommen oder diese zu droppen."
+    "dateLabel": "Erstes Semester",
+    "title": "University Life",
+    "description": "In den ersten zwei Wochen der Vorlesung gibt es die Möglichkeit Kurse hinzuzufügen oder zu droppen.\nMeistens sind die Kurse sehr schnell ausgebucht, es macht also Sinn sich früh einzuschreiben und eventuell später nochmal zu droppen.\n Allerdings ist es möglich sich mit einem Authorization Code vom Professor noch einzuschreiben, sollte der Kurs offiziell schon voll sein. \nSobald die Add-Drop Phase vorbei ist ist es sehr schwierig noch in Kurse reinzukommen oder diese zu droppen."
+  },
+  {
+    "id": "looking-for-advisor",
+    "dateLabel": "Erstes Semester",
+    "title": "Looking for Advisor",
+    "description": "Es macht Sinn sich direkt am Anfang einen Advisor für die Thesis zu suchen, dadurch könnt ihr auch Teil einer Research Gruppe werden und bekommt nebenher auch Credits für die Teilnahme an dem sogenannten Lab.",
+    "links" : [
+      {"label": "Professoren in der Fakultät", "href": "/NTUST/thesis-advisor"}
+    ]
   }
 ]
