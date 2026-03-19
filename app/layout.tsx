@@ -54,7 +54,7 @@ export default function RootLayout({
         >
         <ThemeRegistry>
             <NavBar/>
-            <main>
+            <main className="py-12">
                 {children}
             </main>
             <Footer/>

@@ -21,7 +21,7 @@ export default function NavBar() {
     };
 
     return (
-        <nav className="absolute top-0 left-0 w-full z-10 bg-slate-800 fixed">
+        <nav className="absolute top-0 left-0 w-full z-10 bg-gray-800 fixed">
                 <Toolbar disableGutters className="px-8">
                     <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                         <Link href="/" className="text-white no-underline">
