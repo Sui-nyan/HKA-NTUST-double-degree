@@ -21,11 +21,12 @@ export default function NavBar() {
     };
 
     return (
-        <AppBar position="sticky" className="shadow-none" sx={{backgroundColor: 'transparent'}}>
-            <Container maxWidth="xl">
-                <Toolbar disableGutters>
+        <nav className="absolute top-0 left-0 w-full z-10 bg-gray-800 fixed">
+                <Toolbar disableGutters className="px-8">
                     <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
+                        <Link href="/" className="text-white no-underline">
                         HKA-NTUST Double Degree
+                        </Link>
                     </Typography>
 
                     {routes.map((route) => {
@@ -63,7 +64,6 @@ export default function NavBar() {
                         );
                     })}
                 </Toolbar>
-            </Container>
-        </AppBar>
+        </nav>
     );
 }
