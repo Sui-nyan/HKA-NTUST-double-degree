@@ -21,7 +21,7 @@ export default function NavBar() {
     };
 
     return (
-        <AppBar position="sticky" className="shadow-none" sx={{backgroundColor: 'transparent'}}>
+        <nav className="absolute top-0 left-0 w-full z-10 bg-slate-800 sticky">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
@@ -64,6 +64,6 @@ export default function NavBar() {
                     })}
                 </Toolbar>
             </Container>
-        </AppBar>
+        </nav>
     );
 }
