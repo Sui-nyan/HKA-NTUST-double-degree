@@ -1,8 +1,8 @@
 import {Box} from "@mui/system";
 import {Card, Container, Typography} from "@mui/material";
-import {InfoCard} from "@/app/NTUST/course-selection/components/InfoCard";
+import {InfoCard} from "@/app/components/InfoCard";
 import localeData from "./locales/en.json";
-import type { CourseSelectionLocale } from "./types/locale";
+import type { CourseSelectionLocale } from "../../../lib/types";
 
 const locale = localeData as unknown as CourseSelectionLocale;
 
