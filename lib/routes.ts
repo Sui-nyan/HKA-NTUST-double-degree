@@ -9,21 +9,35 @@ export type RouteItem = {
 
 export const routes: RouteItem[] = [
   {
-    label: "Home",
-    href: "/",
-  },
-  {
     label: "Timeline",
     href: "/timeline",
+  },
+  {
+    label: "Taiwan",
+    href: "",
+    children: [
+      {
+        "label": "Sim Cards",
+        "href": "/mobile"
+      },
+      {
+        "label": "Banking",
+        "href": "/banking"
+      },
+      {
+        "label": "Transportation",
+        "href": "/transport"
+      },
+      {
+        "label": "ARC Card",
+        "href": "/residency"
+      }
+    ]
   },
   {
     label: "NTUST",
     href: "/NTUST",
     children: [
-      {
-        label: "Overview",
-        href: "/NTUST",
-      },
       {
         label: "Classes",
         href: "/NTUST/classes",
