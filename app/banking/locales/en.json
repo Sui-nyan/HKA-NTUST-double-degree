@@ -1,23 +1,29 @@
 {
-  "pageTitle": "Sim-Karten in Taiwan",
+  "pageTitle": "Banking und Geld in Taiwan",
   "infoCards": [
     {
-      "title": "Vor der Reise",
+      "title": "Wie komme ich an Geld?",
       "description": [
-        "Eine Möglichkeit direkt nach dem Flug für die ersten paar Tage Mobile Daten zu bekommen sind, e-Simkarten.",
-        "Es gibt verschiedene Anbieter für e-Simkarten wie beispielsweise Airlo, Saily, Holafly, etc. Die Preise sind alle relativ ähnlich.",
-        "Ich persönlich empfehle Saily, weil die Tarifoptionen für meine Nutzung sehr angemessen sind.",
-        "Saily Code für 5$ Guthaben: ELISAN9376"
+        "Bevor du nach Taiwan losgehst, ist es sinnvoll dich damit zu beschäftigen wie du an Geld kommst.",
+        "Erfahrungsgemäß ist es gut, wenn ihr eine Kreditkarte habt, die gute Angebote für das Ausland hat, also Abhebegebühren im Ausland, Reiserücktrittsversicherung, Cashback, etc.",
+        "Außerdem kann es eventuell auch sinnvoll sein, Bargeld mitzunehmen und vor Ort in Taiwan Dollar umzutauschen. Das Umtauschen von Währungen ist in Taiwan stark reguliert, also sind die Raten auch am Flughafen und in der Stadt gleich."
       ]
     },
     {
-      "title": "Mobilfunkanbieter in Taiwan",
+      "title": "Wofür kann ein taiwanesisches Bankkonto verwendet werden?",
       "description": [
-        "Der größte Anbieter in Taiwan ist Chunghwa Telecom, vergleichbar auch mit Telekom in Deutschland. Im Vergleich zu anderen Anbietern sind die Verträge etwas teurer, aber die Netzabdeckung ist am breitesten.",
-        "Weitere Anbieter sind Taiwan Mobile, FarEasTone und APTG.",
-        "Das Abschließen von Verträgen ohne Chinesisch Kenntnisse ist meistens kein Problem. Die meisten Mitarbeiter in Telekommunikationsläden sprechen einigermaßen Englisch.",
-        "Beim Antrag von Simkarten ist es wichtig, dass der Reisepass immer mitgebracht wird. Er kann nicht durch die ARC ersetzt werden.",
-        "Außerdem haben Mobilfunkanbieter immer ein Rabatt für Studenten. Diesen bekommt man, wenn man die taiwanesische Studierendenkarte mit sich bringt."
+        "Ein taiwanesisches Bankkonto ermöglicht dir folgende Möglichkeiten:",
+        "- Banktransfers innerhalb von Taiwan (eventuell hilfreich für Mietüberweisungen)",
+        "- Automatische Überweisungen von Lotto Gewinnen über 载具 Apps",
+        "- Taiwanesische Steampreise, wenn man den Account mit seinem Steam verbindet"
+      ]
+    },
+    {
+      "title": "Bankkonto 101",
+      "description": [
+        "Wenn du als Ausländer ein Bankkonto eröffen möchtest, benötigst du folgendes:",
+        "Reisepass, Residency Card, Taiwanesische Telefonnummer, Deutsche Steueridentifikationsnummer, ein Stempel mit deinem chinesischen Namen und Minimum Bargeldbetrag, was direkt eingezahlt werden muss.",
+        "Das Eröffnen vom Konto dauert etwa eine Stunde."
       ]
     }
   ]
