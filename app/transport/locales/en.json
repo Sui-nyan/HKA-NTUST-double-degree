@@ -1,20 +1,51 @@
 {
-  "pageTitle": "Transportmittel in Taiwan",
+  "pageTitle": "Transport in Taiwan",
   "infoCards": [
     {
-      "title": "Zahlungsmöglichkeiten",
+      "title": "EasyCards",
       "description": [
-        "Typischerweise nutzen Taiwanesen sogenannte EasyCards, um für die Transportmöglichkeiten zu zahlen.",
-        "Diese Karten können bei Convenience Stores gekauft werden. Sie befinden sich meist direkt neben der Kasse und können dort auch direkt mit Bargeld aufgeladen werden.",
-        "Falls euch das Geld mal ausgeht während ihr noch in der MRT Station drin seid, müsst ihr zu einem der Schalten am Ausgang der Station gehen und dort das Geld bezahlen.",
-        "Neben den EasyCards ist es auch möglich die Studierendenkarte aufzuladen und als Zahlungsmittel für öffentlichen Transport zu nutzen.",
-        "Wenn ihr noch keine Easycard habt können an MRT-Stationen Tickets gekauft werden oder in Bussen direkt mit Bargeld die Fahrt in Bargeld bezahlt werden."
+        "Typically, Taiwanese people use so-called EasyCards to pay for transport options.",
+        "These cards can be purchased at convenience stores. They are usually located directly next to the checkout and can be loaded with cash there.",
+        "In addition to convenience stores, you can also load EasyCards directly at vending machines in MRT stations.",
+        "In some stores, you can also use the card as a payment method."
+      ]
+    },
+    {
+      "title": "MRT (Mass Rapid Transit)",
+      "description": [
+        "In Taipei, most people use the MRT as a means of transport to get quickly from one place to another. There are six lines in total that stretch through the city.",
+        "At the entrance, the EasyCard or ticket is scanned at the gates. When you reach your destination, the money is deducted when you leave the gate, or the ticket is disposed of.",
+        "You should note that there is enough money on the card. If this is not the case, you must pay the difference at the counter with cash and you will be let out of the station.",
+        "The minimum amount for the MRT is $20."
+      ]
+    },
+    {
+      "title": "Bus Lines",
+      "description": [
+        "There are many bus stations in Taipei that can help you make connections or reach places that are not available by MRT.",
+        "Buses sometimes drive very quickly and only stop when people at the station hold their hands out clearly and early enough.",
+        "Similar to the MRT, you can scan your card when boarding and exiting, or throw coins to the driver for the journey.",
+        "The minimum amount is $15."
+      ]
+    },
+    {
+      "title": "YouBike",
+      "description": [
+        "In Taiwan, you can not only take the bus and train, but the bicycle is also part of public transport here.",
+        "The bicycles are located at designated stations and must also be returned at the respective stations.",
+        "To use the bicycles, you need the YouBike app, which is available in both the AppStore and GooglePlayStore.",
+        "After downloading the app, you can sign up with a Taiwanese phone number or as a guest.",
+        "A guest registration requires a credit card with approximately €80 deposited as collateral. Then bicycles can be rented using a QR code.",
+        "However, you should note that guest login is only valid for 5 days, after which the collateral is refunded. Rides cost $10 per 30 minutes.",
+        "As a registered user, you can deposit your EasyCards, which are used to rent bicycles. Bicycles are activated, the card is placed on them and the ride can begin.",
+        "After you have finished your ride and placed the bicycle in the station, you tap it again as with other means of transport so that the money is deducted.",
+        "The first 30 minutes of the ride are free of charge."
       ]
     },
     {
         "title": "Good to know",
         "description": [
-            ""
+            "Student cards also count as transport cards."
         ]
     }
   ]

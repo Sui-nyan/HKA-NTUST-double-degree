@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/app/components/NavBar";
+import NavBarClient from "@/app/components/NavBarClient";
 
 import ThemeRegistry from '@/app/providers/ThemeRegistry';
+import { LocaleProvider } from '@/app/providers/LocaleProvider';
 import Footer from "./components/Footer";
 
 const geistSans = Geist({
@@ -53,11 +54,13 @@ export default function RootLayout({
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
         <ThemeRegistry>
-            <NavBar/>
+          <LocaleProvider>
+            <NavBarClient/>
             <main className="py-12">
                 {children}
             </main>
             <Footer/>
+          </LocaleProvider>
         </ThemeRegistry>
         </body>
         </html>
