@@ -5,10 +5,13 @@ import {useState} from "react";
 import {AppBar, Button, Container, Menu, MenuItem, Toolbar, Typography} from "@mui/material";
 
 import {RouteItem, routes} from "@/lib/routes";
+import { useLocale } from "@/app/providers/LocaleProvider";
+import LocaleSwitch from "./Switch";
 
 export default function NavBar() {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const [activeMenu, setActiveMenu] = useState<RouteItem[] | null>(null);
+    const { locale, setLocale } = useLocale();
 
     const handleOpenMenu = (event: React.MouseEvent<HTMLElement>, items: RouteItem[]) => {
         setAnchorEl(event.currentTarget);
@@ -63,6 +66,9 @@ export default function NavBar() {
                             </div>
                         );
                     })}
+
+                    {/* Locale Switcher */}
+                    <LocaleSwitch locale={locale} onLocaleChange={setLocale} />
                 </Toolbar>
         </nav>
     );

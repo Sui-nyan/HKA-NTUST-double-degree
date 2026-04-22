@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "@/app/components/NavBar";
 
 import ThemeRegistry from '@/app/providers/ThemeRegistry';
+import { LocaleProvider } from '@/app/providers/LocaleProvider';
 import Footer from "./components/Footer";
 
 const geistSans = Geist({
@@ -53,11 +54,13 @@ export default function RootLayout({
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
         <ThemeRegistry>
+          <LocaleProvider>
             <NavBar/>
             <main className="py-12">
                 {children}
             </main>
             <Footer/>
+          </LocaleProvider>
         </ThemeRegistry>
         </body>
         </html>
