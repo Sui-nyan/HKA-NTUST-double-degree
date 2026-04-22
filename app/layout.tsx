@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/app/components/NavBar";
+import NavBarClient from "@/app/components/NavBarClient";
 
 import ThemeRegistry from '@/app/providers/ThemeRegistry';
 import { LocaleProvider } from '@/app/providers/LocaleProvider';
@@ -55,7 +55,7 @@ export default function RootLayout({
         >
         <ThemeRegistry>
           <LocaleProvider>
-            <NavBar/>
+            <NavBarClient/>
             <main className="py-12">
                 {children}
             </main>
