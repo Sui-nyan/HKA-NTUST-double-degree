@@ -4,9 +4,15 @@ import {Typography} from "@mui/material";
 
 export default function Home() {
   return (
-    <Box className="flex flex-col items-center justify-center min-h-screen py-2 bg-[url(../public/timo-volz-9-JFZIORoRw-unsplash.jpg)] h-auto bg-cover">
-      <Container className="bg-linear-to-r from-slate-500 to-black-500 bg-opacity-80 rounded-lg p-8">
-          <Typography variant={"h1"} className="chewy-regular">A Journey to Taiwan</Typography>
+    <Box className="flex flex-col items-center justify-center min-h-screen">
+      <Container className="p-8">
+          <Typography variant={"h1"} className="chewy-regular">From Karlsruhe</Typography>
+      </Container>
+      <Container className="p-8">
+          <Typography variant={"h1"} className="chewy-regular">to Taipei</Typography>
+      </Container>
+      <Container className="p-8">
+          <Typography variant={"h1"} className="chewy-regular">and to the 世界</Typography>
       </Container>
     </Box>
   );
