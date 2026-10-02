@@ -1,7 +1,7 @@
 import {Card, Container, Typography} from "@mui/material";
 import {TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator} from "@mui/lab";
 import Link from "next/link";
-import {TimelineEntry} from "./types";
+import {TimelineEntry} from "../taiwan/types";
 
 interface Props {
   entry: TimelineEntry;
